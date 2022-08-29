@@ -5,27 +5,10 @@ main {
 	width: 1920px;
 }
 .header {
-	display: inline;
 	width: 560px;
 	margin-left: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 22px;
 	text-align: center;
-}
-.header-h2 {
-	display: inline;
-	width: 560px;
-}
-.header-description {
-	display: inline;
-	width: 560px;
-}
-.header-feedback {
-	display: inline;
-	width: 560px;
-}
-.header-photo {
-	display: inline;
-	width: 560px;
 }
