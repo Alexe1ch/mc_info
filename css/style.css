@@ -2,13 +2,25 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 main {
-	width: 1920px;
+	width: 1440px;
+}
+.header-container {
+	width: 1440px;
 }
 .header {
-	width: 560px;
+	display: flex;
+	width: 720px;
 	margin-left: 50px;
+	margin-right: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 22px;
 	text-align: center;
+}
+.header-h2 {
+	width: 720px;
+}
+.header-photo {
+	display: flex;
+	width: 720px;
 }
