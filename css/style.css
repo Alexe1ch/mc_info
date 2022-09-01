@@ -1,6 +1,5 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	margin: 50px;
 	width: 1440px;
 }
 .nav-menu {
@@ -9,21 +8,28 @@ body {
 
 }
 .nav-list {
-	
+	margin: 50px;
 }
 .nav-list-item {
 	display: inline-block;
+	font-size: 24px;
 	text-align: center;
 	margin-right: 80px;
 }
+.nav-list-item-2 {
+	margin-right: 0;
+}
 .nav-item-list-href:hover {
-	color: blueviolet;
+	color: rgb(51, 2, 97);
 	text-shadow: 1px 1px 1px;
+}
+.header-container {
+	margin: 0 40px;
 }
 .header {
 	display: inline-block;
 	width: 650px;
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-right: 50px;
 	padding-top: 40px;
 	font-size: 22px;
@@ -31,8 +37,76 @@ body {
 }
 .header-photo {
 	display: inline-block;
+	margin-left: 5px;
 	width: 650px;
 	border-radius: 40px;
 	margin-top: 50px;
+	box-shadow: 3px 3px 10px rgb(51, 2, 97);
+}
+.header-h2 {
+	font-size: 24px;
+	font-weight: bold;
+	width: 500px;
+	margin: 10px auto 40px;
+	padding: 10px;
+	border: 1px solid rgb(51, 2, 97);
+	box-shadow: 3px 3px 5px rgb(51, 2, 97);
+	border-radius: 20px;
+}
+.header-description {
+	font-size: 20px;
+	line-height: 25px;
+	width: 450px;
+	margin: 0 auto;
+}
+.header-feedback {
+	font-size: 20px;
+	margin: 40px auto 0;
+	width: 450px;
+}
+.feedback {
+	color: blue;
+	text-decoration: underline;
+}
+.feedback:hover {
+	color: rgb(51, 2, 97);
+	text-shadow: 1px 1px 1px
+}
+.kitchen-container {
+	margin: 100px 50px;
+	font-size: 18px;
+}
+.kitchen-container-header {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.kitchen-timer {
+	margin: 0 200px 5px;
+
+	text-align: left;
+}
+.kitchen-header-h3 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-weight: 600;
+}
+.kitchen-timer-item {
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+.footer {
+	display: block;
+	margin: 100px 0;
+	height: 100px;
+}
+.author-text {
+	text-align: center;
+}
+.author {
+	text-align: center;
+	margin-top: 5px;
 }
 

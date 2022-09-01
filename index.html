@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style_0.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Instructor Info</title>
@@ -16,11 +16,11 @@
 <body>
 	<nav class="nav-menu">
 		<ul class="nav-list">
-			<li class="nav-list-item"><a class="nav-item-list-href" href="">Кухня</a></li>
+			<li class="nav-list-item"><a class="nav-item-list-href" href="#mac-kitchen">Кухня</a></li>
 			<li class="nav-list-item"><a class="nav-item-list-href" href="">Прилавок</a></li>
 			<li class="nav-list-item"><a class="nav-item-list-href" href="">Доставка</a></li>
 			<li class="nav-list-item"><a class="nav-item-list-href" href="">Мак-авто</a></li>
-			<li class="nav-list-item"><a class="nav-item-list-href" href="">Кафе</a></li>
+			<li class="nav-list-item nav-list-item-2"><a class="nav-item-list-href" href="">Кафе</a></li>
 		</ul>
 	</nav>
 	<header class="header-container">
@@ -29,14 +29,14 @@
 			<p class="header-description">Если ты хочешь стать крутым работягой, чтобы все знали что ты эксперт в своем
 				деле,
 				то этот сайт для тебя!</p>
-			<p class="header-feedback">Если интересна инфа и есть желание помочь, напишите <a
+			<p class="header-feedback">Если интересна инфа и есть желание помочь, напишите <a class="feedback"
 					href="https://vk.com/id359515641">мне</a></p>
 		</div>
 		<img class="header-photo" src="img/main_photo.png" alt="crew member">
 	</header>
 	<main class="main">
 		<div class="kitchen-container">
-			<h2 class="kitchen-container-header">Кухня</h2>
+			<h2 id="mac-kitchen" class="kitchen-container-header">Кухня</h2>
 			<div class="kitchen-timer">
 				<h3 class="kitchen-header-h3">Таймера на заправочном столе:</h3>
 				<p class="kitchen-timer-item">Помидоры - 30 минут</p>
@@ -57,7 +57,7 @@
 				<p class="kitchen-timer-item">Лук, салаты - 6 часов.</p>
 				<p class="kitchen-timer-item">Помидоры - пол часа / 1 hour for other ПБО</p>
 			</div>
-			<div>
+			<div class="kitchen-timer">
 				<h3 class="kitchen-header-h3">В холодильнике на кухне:</h3>
 				<p class="kitchen-timer-item">Вскрытые, затем замотанные салаты, лук - 16 часов</p>
 				<p class="kitchen-timer-item">Помидоры в ящике - сутки</p>
@@ -65,24 +65,24 @@
 				<p class="kitchen-timer-item">Замотанные соуса - двое суток (48 часов)</p>
 				<p class="kitchen-timer-item">Замотанная горчица - 5 суток</p>
 			</div>
-			<div>
+			<div class="kitchen-timer">
 				<h3 class="kitchen-header-h3">Соуса:</h3>
 				<p class="kitchen-timer-item">Соуса в тубах на выдержке, под салатным столиком - двое суток</p>
 				<p class="kitchen-timer-item">Выдержка бигмака перед использованием - 4 часа, остальные выдержки не требуют
 				</p>
 			</div>
-			<div>
+			<div class="kitchen-timer">
 				<h3 class="kitchen-header-h3">Tomato:</h3>
 				<p class="kitchen-timer-item">Помидоры в красном лотке лежат не более двух часов, сушатся после мойки в
 					солевом растворе.</p>
 			</div>
-			<div>
+			<div class="kitchen-timer">
 				<h3 class="kitchen-header-h3">Таймера в UHC кабиинете:</h3>
 				<p class="kitchen-timer-item">Десятка, четверка - 10 минут</p>
 				<p class="kitchen-timer-item">Тройка - 15 минут</p>
 				<p class="kitchen-timer-item">Вся фритюрная продукция - 20 минут</p>
 			</div>
-			<div>
+			<div class="kitchen-timer">
 				<h3 class="kitchen-header-h3">Таймера на фритюре:</h3>
 				<p class="kitchen-timer-item">6:30 мин крылья</p>
 				<p class="kitchen-timer-item">5 минут стрипсы 4:30 мин премьер</p>
@@ -92,8 +92,10 @@
 			</div>
 		</div>
 	</main>
-	<h6>Author of text: Kirill Ryabyhin</h6>
-	<h6>Author cite: Alexe1ch</h6>
+	<footer class="footer">
+		<h6 class="author-text">Author of text: Kirill Ryabyhin</h6>
+		<h6 class="author">Author cite: Alexe1ch</h6>
+	</footer>
 </body>
 
 </html>
