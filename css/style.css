@@ -1,11 +1,13 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	width: 1440px;
+	color: white;
+	background: url("../img/back.png") center /cover;
+	
 }
 .nav-menu {
 	display: table;
 	margin: 0 auto;
-
 }
 .nav-list {
 	margin: 50px;
@@ -19,18 +21,22 @@ body {
 .nav-list-item-2 {
 	margin-right: 0;
 }
+.nav-item-list-href {
+	color: white;
+}
 .nav-item-list-href:hover {
-	color: rgb(51, 2, 97);
+	color: rgb(16, 230, 254);
 	text-shadow: 1px 1px 1px;
 }
 .header-container {
-	margin: 0 40px;
+	margin: 0 60px;
 }
 .header {
 	display: inline-block;
 	width: 650px;
-	margin-top: 80px;
-	margin-right: 50px;
+	margin-left: 100px;
+	margin-top: 25px;
+	margin-right: 10px;
 	padding-top: 40px;
 	font-size: 22px;
 	text-align: center;
@@ -38,7 +44,7 @@ body {
 .header-photo {
 	display: inline-block;
 	margin-left: 5px;
-	width: 650px;
+	width: 450px;
 	border-radius: 40px;
 	margin-top: 50px;
 	box-shadow: 3px 3px 10px rgb(51, 2, 97);
@@ -46,7 +52,7 @@ body {
 .header-h2 {
 	font-size: 24px;
 	font-weight: bold;
-	width: 500px;
+	width: 400px;
 	margin: 10px auto 40px;
 	padding: 10px;
 	border: 1px solid rgb(51, 2, 97);
@@ -72,8 +78,9 @@ body {
 	color: rgb(51, 2, 97);
 	text-shadow: 1px 1px 1px
 }
+
 .kitchen-container {
-	margin: 100px 50px;
+	margin: 215px 50px 100px;
 	font-size: 18px;
 }
 .kitchen-container-header {
@@ -83,7 +90,7 @@ body {
 	margin-bottom: 60px;
 }
 .kitchen-timer {
-	margin: 0 200px 5px;
+	margin: 0 310px 5px;
 
 	text-align: left;
 }
@@ -94,8 +101,8 @@ body {
 	font-weight: 600;
 }
 .kitchen-timer-item {
-	margin-bottom: 10px;
-	line-height: 25px;
+	margin: 0 0 10px;
+	line-height: 30px;
 }
 .footer {
 	display: block;
@@ -108,5 +115,10 @@ body {
 .author {
 	text-align: center;
 	margin-top: 5px;
+}
+.href-png {
+	display: block;
+	margin: 5px 0 0 0;
+	text-align: center;
 }
 
