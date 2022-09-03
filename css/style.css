@@ -28,13 +28,17 @@ body {
 	color: rgb(16, 230, 254);
 	text-shadow: 1px 1px 1px;
 }
+.nav-item-list-href:active {
+	color:rgb(51, 2, 97);
+	text-shadow: 1px 1px 10px;
+}
 .header-container {
 	margin: 0 60px;
 }
 .header {
 	display: inline-block;
-	width: 650px;
-	margin-left: 100px;
+	width: 500px;
+	margin-left: 200px;
 	margin-top: 25px;
 	margin-right: 10px;
 	padding-top: 40px;
@@ -46,13 +50,13 @@ body {
 	margin-left: 5px;
 	width: 450px;
 	border-radius: 40px;
-	margin-top: 50px;
+	margin-top: 80px;
 	box-shadow: 3px 3px 10px rgb(51, 2, 97);
 }
 .header-h2 {
 	font-size: 24px;
 	font-weight: bold;
-	width: 400px;
+	width: 300px;
 	margin: 10px auto 40px;
 	padding: 10px;
 	border: 1px solid rgb(51, 2, 97);
@@ -99,6 +103,9 @@ body {
 	margin-bottom: 25px;
 	text-align: center;
 	font-weight: 600;
+}
+.kitchen-header-h3:hover {
+	color: rgb(16, 230, 254);
 }
 .kitchen-timer-item {
 	margin: 0 0 10px;
