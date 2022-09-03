@@ -51,7 +51,7 @@ body {
 	width: 450px;
 	border-radius: 40px;
 	margin-top: 80px;
-	box-shadow: 3px 3px 10px rgb(51, 2, 97);
+	box-shadow: 1px 1px 30px rgb(51, 2, 97);
 }
 .header-h2 {
 	font-size: 24px;
@@ -62,7 +62,10 @@ body {
 	border: 1px solid rgb(51, 2, 97);
 	box-shadow: 3px 3px 5px rgb(51, 2, 97);
 	border-radius: 20px;
+}.header-h2:hover {
+	color: rgb(16, 230, 254);
 }
+
 .header-description {
 	font-size: 20px;
 	line-height: 25px;
@@ -84,7 +87,7 @@ body {
 }
 
 .kitchen-container {
-	margin: 215px 50px 100px;
+	margin: 225px 50px 100px;
 	font-size: 18px;
 }
 .kitchen-container-header {
@@ -92,6 +95,9 @@ body {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 60px;
+}
+.kitchen-container-header:hover {
+	color: rgb(16, 230, 254);
 }
 .kitchen-timer {
 	margin: 0 310px 5px;
