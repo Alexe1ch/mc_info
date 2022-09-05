@@ -96,7 +96,6 @@ body {
 }
 .kitchen-timer {
 	margin: 0 310px 5px;
-
 	text-align: left;
 }
 .kitchen-header-h3 {
@@ -104,10 +103,25 @@ body {
 	margin-bottom: 25px;
 	text-align: center;
 	font-weight: 600;
+	position: relative;
 }
 .kitchen-header-h3::before{
-	content: url("../img/burger.png");
-	margin: 0 10px 0 0;
+	content: "";
+	background: url("../img/burger.png") 0 0 no-repeat;
+	width: 24px;
+	height: 24px;
+	top: -4px;
+	left: 0;
+	position: absolute;
+}
+.kitchen-header-h3::after{
+	content: "";
+	background: url("../img/burger.png") 0 0 no-repeat;
+	width: 24px;
+	height: 24px;
+	top: -4px;
+	right: 0;
+	position: absolute;
 }
 .kitchen-header-h3:hover {
 	color: rgb(16, 230, 254);
